@@ -45,7 +45,7 @@ public class List1Activity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError error) {
-                // 주석 추가1
+                // 주석 추가
                 Log.e("내태그", "Firebase서버 에러: ", error.toException());
             }
         };
